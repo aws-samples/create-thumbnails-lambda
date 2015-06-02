@@ -1,0 +1,21 @@
+{
+  		"name": "create-thumbs-lambda",
+  		"version": "0.0.1",
+  		"description": "AWS Lambda function to create an image thumbnail",
+  		"main": "CreateThumbnail.js",
+  		"dependencies": {
+    		"gm": "^1.17.0",
+    		"async": "^0.9.0"
+  		},
+  		"devDependencies": {
+		    "aws-sdk": "latest",
+    		"grunt": "0.4.*",
+    		"grunt-aws-lambda": "0.3.0",
+    		"npm": "^2.8.3"
+  		},
+  		"scripts": {
+    		"test": "echo \"Error: no test specified\" && exit 1"
+  		},
+  		"author": "Amazon Web Services Inc.",
+  		"license": "Apache 2.0"
+	}
