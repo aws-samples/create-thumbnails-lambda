@@ -9,15 +9,11 @@ grunt.initConfig({
             }
         }
     },
-    lambda_deploy: {
-        default: {
-            function: 'CreateThumbnail'
-        }
-    },
     lambda_package: {
         default: {
+            options: {
+                include_time: false
+            }
         }
     }
 });
-
-grunt.registerTask('deploy', ['lambda_package', 'lambda_deploy'])
