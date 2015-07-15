@@ -1,6 +1,6 @@
 {
   		"name": "create-thumbs-lambda",
-  		"version": "0.0.1",
+  		"version": "0.0.2",
   		"description": "AWS Lambda function to create an image thumbnail",
   		"main": "CreateThumbnail.js",
   		"dependencies": {
@@ -10,7 +10,7 @@
   		"devDependencies": {
 		    "aws-sdk": "latest",
     		"grunt": "0.4.*",
-    		"grunt-aws-lambda": "0.3.0",
+    		"grunt-aws-lambda": "0.8.0",
     		"npm": "^2.8.3"
   		},
   		"scripts": {
